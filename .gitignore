@@ -59,7 +59,6 @@ yarn-error.log*
 npm-shrinkwrap.json
 
 # Ignorar arquivos de ferramentas e cache de compilação
-.nuget/
 bower_components/
 dist/
 bower.json
