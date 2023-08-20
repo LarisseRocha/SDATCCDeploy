@@ -35,7 +35,6 @@ packages/
 *.xproj.user
 *.sln
 *.suo
-*.csproj.user
 .vscode
 .vs
 
