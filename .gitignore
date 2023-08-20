@@ -1,0 +1,85 @@
+# Ignorar arquivos e pastas gerados pelo Visual Studio e .NET
+.vscode/
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.user
+*.vscode
+
+# Ignorar arquivos de configuração de ambiente
+appsettings.*.json
+appsettings.local.json
+*.env
+
+# Ignorar arquivos de build e cache
+*.suo
+*.userprefs
+*.log
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Mm]hf/
+[Aa][Rr][Mm]64\s64\
+
+# Ignorar pacotes NuGet
+packages/
+*.nupkg
+*.pfx
+
+# Ignorar arquivos de projeto e solução
+*.xproj
+*.xproj.user
+*.sln
+*.suo
+*.csproj.user
+.vscode
+.vs
+
+# Ignorar arquivos de análise de código
+*_Resharper.Caches/
+*_ReSharper.GradleCache/
+*.sln.DotSettings
+
+# Ignorar arquivos de backup do Visual Studio
+*.[Bb]ak
+*.vspscc
+*.vsp
+*.psess
+
+# Ignorar arquivos do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/package-lock.json
+/yarn.lock
+npm-shrinkwrap.json
+
+# Ignorar arquivos de ferramentas e cache de compilação
+.nuget/
+bower_components/
+dist/
+bower.json
+Gruntfile.js
+gulpfile.js
+*.tmp
+*.tmp/
+
+# Ignorar arquivos e pastas específicos do projeto de infraestrutura
+Infrastructure/bin/
+Infrastructure/obj/
+
+# Ignorar arquivos e pastas específicos do projeto de domínio
+Domain/bin/
+Domain/obj/
+
+# Ignorar arquivos gerados pelo IDE Rider
+.idea/
+
+# Ignorar arquivos gerados pela ferramenta dotnet ef
+MigrationHistory/
+*.edmx
